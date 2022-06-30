@@ -8,4 +8,5 @@ methods = { path = "../methods" }
 risc0-zkvm-core = { git = "https://github.com/stskeeps/risc0.git" }
 risc0-zkvm-host = { git = "https://github.com/stskeeps/risc0.git" }
 risc0-zkvm-serde = { git = "https://github.com/stskeeps/risc0.git" }
+
 serde = "1.0"

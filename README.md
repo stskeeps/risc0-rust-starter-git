@@ -2,18 +2,11 @@
 
 The `risc0-rust-starter` repository is a minimal starting project for zero-knowledge software development. In this RISC Zero "Hello World" project, we use zero-knowledge proof techniques to prove that we know the factors of some composite number `N`, without revealing what the factors are. 
 
-For more information, check out the [risc0/risc0 repository](www.github.com/risc0/risc0) and the [RISC Zero website](http://www.RISCZero.com).
+For more information, check out the [risc0/risc0 repository](https://www.github.com/risc0/risc0) and the [RISC Zero website](https://www.RISCZero.com).
 
 # Quick Start
 
 First, make sure [rustup](https://rustup.rs) is installed. This project uses a [nightly](https://doc.rust-lang.org/book/appendix-07-nightly-rust.html) version of [Rust](https://doc.rust-lang.org/book/ch01-01-installation.html), `rustup` will automatically install the correct version.
-
-Make sure you are using a nightly version of Rust:
-
-```
-rustup toolchain install nightly
-rustup override set nightly
-````
 
 To build all methods and execute the method within the zkVM, run the following command:
 
